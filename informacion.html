@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Bienvenido al programa de monitorias eafit</title>
+
+
+    <style>
+        .centrar {
+            text-align: center;
+        }
+
+        .todo {
+            width: 100%;
+            max-width: 850px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .imgmi {
+            padding: 100px;
+            position: auto;
+        }
+
+        .imgmi>img {
+            border: solid 5pm black;
+        }
+
+        .img-manuel {
+            padding: 100px;
+            pisition: inherit;
+
+        }
+
+        .btn-agendamiento {
+            padding: 10px;
+            font-size: 15px
+        }
+
+        .info {
+            border: solid 5px black;
+            margin: 0 35% 0 35%;
+        }
+    </style>
+    <link rel="stylesheet" href="./dropdown-menu/dropdown.css">
+</head>
+
+<body class="centrar">
+
+    <div class="todo">
+        <h1>Universidad Eafit</h1>
+
+        <h2>Esta es la pagina de agendacion de monitorias de la universidad eafit</h2>
+        <h3>Estos son nuestros monitores: </h3>
+    </div>
+    <div class="imgmi">
+        <h4>Miguel Montoya Areiza </h4>
+        <img src="fotomiguel.jpeg" width="200" height="200">
+
+        <div class="info">
+            <h5>Materia: Fundamentos de programación</h5>
+            <h5>Horarios de atención:</h5>
+            <h5>Martes: 5pm - 6pm</h5>
+            <h5>Jueves: 12m - 1pm</h5>
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="img-manuel">
+        <h5>Manuel Arenas Lara</h5>
+        <img src="fotomanuel.jpeg" alt="Foto Manuel" width="200" height="200">
+        <div class="info">
+            <h5>Materia: Principios de desarrollo de software</h5>
+            <h5>Horario de atención:</h5>
+            <h5>Lunes: 3pm - 4pm</h5>
+            <h5>Viernes: 8am - 9am</h5>
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>La pagina de monitorias solo cuenta con 2 monitores por el momento,
+        con el paso del tiempo nos iremos actualizando, gracias por entender
+    </p>
+
+    <button class="btn-agendamiento">Agendar monitoria</button>
+
+</body>
+
+</html>
